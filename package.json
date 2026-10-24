@@ -1,0 +1,10 @@
+{
+  "name": "hana-push-astra",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Hana v2 input-bar button that sends one 继续 to the current session.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

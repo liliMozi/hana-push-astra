@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 2,
+  "id": "hana-push-astra",
+  "name": "Push Astra",
+  "version": "0.1.0",
+  "description": "输入栏左侧的一枚「继续」按钮：点一下就往当前会话发一条「继续」，让它接着往下干。",
+  "entry": "index.js",
+  "capabilities": [
+    "app/input.status",
+    "app/sessions.manage",
+    "app/session.start-turn"
+  ],
+  "icon": "assets/icon.png",
+  "minAppVersion": "1.1.116-beta",
+  "contributes": {
+    "ui": {
+      "inputStatus": [
+        {
+          "id": "continue",
+          "title": "继续",
+          "tooltip": "在当前会话发送「继续」，让它接着往下干",
+          "icon": "icons/continue.svg",
+          "toolName": "continue_session"
+        }
+      ]
+    }
+  }
+}
